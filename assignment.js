@@ -38,6 +38,8 @@ console.log(budgetCalculator(2, 3, 2));
 
 //======== End===============
 
+
+
 //==== hotelCost  start =====
 function hotelCost(day) {
 
@@ -65,7 +67,6 @@ function hotelCost(day) {
             // first 10 days cost= (10*100) second 10 days cost =(10 * 80);
             var totalCost = cost3 + (10 * 100) + (10 * 80);
             return totalCost;
-
         };
     };
 };
@@ -93,7 +94,6 @@ function megaFriend(arrey) {
         }
     }
     return biggestName;
-
 }
 
 
